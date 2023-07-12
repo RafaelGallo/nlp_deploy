@@ -14,6 +14,7 @@ import streamlit as st
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 # Carrega o conjunto de dados
 data = pd.read_csv('Tweets.csv')
